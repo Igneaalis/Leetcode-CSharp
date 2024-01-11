@@ -52,14 +52,13 @@ public class Solution {
             if (left is not null)
             {
                 sum += left.val;
+                left = left.next;
             }
             if (right is not null)
             {
                 sum += right.val;
+                right = right.next;
             }
-            left = left?.next;
-            right = right?.next;
-            
             if (sum < 10)
             {
                 cur.val = sum;
