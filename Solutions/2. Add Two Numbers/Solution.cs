@@ -4,7 +4,6 @@ public class Solution
 {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {
-        
         ListNode root = new(0);
         var left = l1; var right = l2; ListNode cur = root;
         int sum = 0;
